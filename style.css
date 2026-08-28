@@ -107,6 +107,21 @@ header {
 }
 
 /* Features */
+.feature {
+  max-width: 300px;
+  padding: 30px;
+  background: #f9fafb;
+  border-radius: 10px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
 
 .features {
   padding: 70px 8%;

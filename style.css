@@ -309,3 +309,76 @@ footer {
     align-items: center;
   }
 }
+/* Order Form */
+
+.order-section {
+  padding: 70px 8%;
+  background: #f3f4f6;
+}
+
+.order-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.order-container h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.order-container > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.order-form button {
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.order-form button:hover {
+  background: #1d4ed8;
+  transform: scale(1.02);
+}

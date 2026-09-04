@@ -69,6 +69,37 @@
       </div>
     </section>
 
+    <!-- Customer Reviews -->
+    <section class="reviews">
+      <h2>What Our Customers Say</h2>
+
+      <div class="review-container">
+        <div class="review">
+          <p>
+            "I absolutely love this smartwatch! The battery lasts for days and
+            the health tracking is very useful."
+          </p>
+          <h4>- Sarah</h4>
+        </div>
+
+        <div class="review">
+          <p>
+            "The design is beautiful and it is very easy to use. Definitely
+            worth the price!"
+          </p>
+          <h4>- David</h4>
+        </div>
+
+        <div class="review">
+          <p>
+            "A great smartwatch for everyday use. I especially love getting
+            notifications on my wrist."
+          </p>
+          <h4>- Jessica</h4>
+        </div>
+      </div>
+    </section>
+
     <!-- Pricing Section -->
     <section class="pricing" id="pricing">
       <h2>Simple Pricing</h2>
@@ -82,8 +113,78 @@
         <p>1-year warranty</p>
         <p>30-day return policy</p>
 
-        <button>Order Now</button>
+        <a href="#order" class="btn">Order Now</a>
+
+
+
+
+
       </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <!-- Order Form -->
+    <section class="order-section" id="order">
+
+     <div class="order-container">
+
+        <h2>Place Your Order</h2>
+
+        <p>Fill in your details and we'll get your SmartWatch to you.</p>
+
+        <form class="order-form">
+
+            <label for="name">Full Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+            >
+
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="phone">Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+            >
+
+            <label for="quantity">Quantity</label>
+            <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                value="1"
+                required
+            >
+
+            <label for="address">Delivery Address</label>
+            <textarea
+                id="address"
+                name="address"
+                placeholder="Enter your delivery address"
+                rows="4"
+                required
+            ></textarea>
+
+            <button type="submit">Place Order</button>
+
+        </form>
+
+     </div>
     </section>
 
     <!-- Contact / CTA -->
